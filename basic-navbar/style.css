@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.main {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRELXigqoWkyM-VeC6PiufffHUHVXd5h_Tpdw&s");
+    background-position: center;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    height: 100vh;
+    text-align: center; 
+}
+
+a:hover {
+    color:rgb(0, 145, 255);
+}
