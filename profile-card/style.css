@@ -74,23 +74,20 @@ p {
   border-radius: 50%;
 }
 
-#facebook {
-    background-color:  #3B5998;
-}
 
 #instagram {
     background-color: #d907e8;
 }
 
-#twitter {
-    background-color: #55AAEE;
+.fa-telegram {
+    background-color: #1284e2;
 }
 
 #youtube {
     background-color: #bb0000;
 }
 
-button {
+button, .active:hover {
     background: var(--button);
     color: white;
     border: none;
@@ -101,6 +98,7 @@ button {
     border: 1px solid;
     margin-left: 5px;
     width: 150px;
+    cursor: pointer;
     margin-bottom: 20px;
 }
 
@@ -108,4 +106,9 @@ button {
     border-color: var(--button);
     background: transparent;
     color: var(--button);
+}
+
+button:hover, .fa:hover{
+    transform: translateY(2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
