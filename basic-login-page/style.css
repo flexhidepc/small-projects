@@ -1,0 +1,90 @@
+:root {
+    --brand-color: #006aff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 240, 215);
+    height: 100vh;
+}
+
+.card {
+    width: 400px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    background-color: var(--brand-color);
+}
+
+input[type=text], input[type=password] {
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 13px;
+    width: 83%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: var(--brand-color);
+}
+
+input::placeholder {
+    color: grey;
+}
+
+.forget {
+    margin-left: 20px;
+    margin-top: 15px;
+    color: var(--brand-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+input[type=button] {
+    margin-top: 20px;
+    width: 90%;
+    background-color: var(--brand-color);
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span {
+    color: var(--brand-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=button]:hover {
+    transform: translateY(2px);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+input:focus {
+    outline-color: var(--brand-color);
+    transform: translateY(5px);
+    box-shadow: 1px 1px 10px 1px rgba(0, 51, 255, 0.2);
+}
